@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Modify CSS and HTML",
+  "version": "0.1.0",
+  "description": "Fullscreen leetcode extension",
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["jquery-3.2.1.slim.min.js", "content.js"],
+    "matches": ["https://leetcode.com/problems/*"]
+  }]
+
+}
